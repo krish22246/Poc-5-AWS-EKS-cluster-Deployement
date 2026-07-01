@@ -1,3 +1,8 @@
 variable "region" {
-  default = "ap-south-1"
+  description = "AWS Region"
+  default     = "ap-south-1"
+}
+
+variable "cluster_name" {
+  default = "eks-poc"
 }
